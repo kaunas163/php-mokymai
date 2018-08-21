@@ -1,6 +1,6 @@
 <?php
 
-$diena = "antradienis";
+$diena = "sestadienis";
 
 switch ($diena) {
     case "sestadienis":
