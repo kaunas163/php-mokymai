@@ -1,6 +1,7 @@
 <?php
 
-$nav = array("Pradzia", "Produkcija", "Paslaugos", "Atlikti darbai", "Apie mus", "Kontaktai");
+$nav = array("Pradzia", "Produkcija", "Paslaugos",
+        "Atlikti darbai", "Apie mus", "Kontaktai");
 
 if (count($nav) > 0) {
     echo "<ul>";
