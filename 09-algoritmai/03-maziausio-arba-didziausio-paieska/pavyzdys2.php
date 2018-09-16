@@ -6,7 +6,7 @@ $min = $skaiciai[0];
 
 foreach ($skaiciai as $skaicius) {
     if ($skaicius < $min) {
-        $min = $skaiciai;
+        $min = $skaicius;
     }
 }
 

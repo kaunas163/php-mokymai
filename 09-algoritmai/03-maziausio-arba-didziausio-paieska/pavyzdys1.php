@@ -6,7 +6,7 @@ $min = $skaiciai[0];
 
 for ($i = 0; $i < count($skaiciai); $i++) {
     if ($skaiciai[$i] < $min) {
-        $min = $skaiciai;
+        $min = $skaiciai[$i];
     }
 }
 
