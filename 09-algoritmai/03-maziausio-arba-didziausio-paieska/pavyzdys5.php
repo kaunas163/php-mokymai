@@ -12,4 +12,4 @@ for ($i = 0; $i < count($skaiciai); $i++) {
     }
 }
 
-echo "didziausias skaicius yra $didziausias jo indeksas $indeksas";
+echo "didziausias skaicius yra $didziausias, jo indeksas $indeksas";
