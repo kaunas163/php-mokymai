@@ -1,10 +1,6 @@
 <?php
 
-$skaiciai = array();
-
-for ($i = 0; $i < 20; $i++) {
-    $skaiciai[$i] = rand(1, 10);
-}
+$skaiciai = array(7, 5, 3, 9, 5, 8, 7, 1, 2, 6);
 
 $ieskomas = rand(1, 10);
 echo "ieskomas skaicius yra $ieskomas <br>";
