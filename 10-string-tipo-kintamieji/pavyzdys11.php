@@ -1,4 +1,4 @@
 <?php
 
 $tekstas = "Labas";
-echo "'$tekstas' suhashintas: " . md5($tekstas) . "<br><br>";
+echo "'$tekstas' suhashintas: " . md5($tekstas);
