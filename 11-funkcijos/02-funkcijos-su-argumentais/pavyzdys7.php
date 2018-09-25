@@ -1,25 +1,17 @@
 <?php
 
-$zodziai = array("gitara", "drugelis", "zirafa", "medis", "gele");
-$studentai = array("Marius", "Giedrius", "Povilas", "Gintare", "Elina", "Vytautas");
-$auto = array();
-
-function sarasas($pavadinimas, $masyvas) {
-    echo "<h1>$pavadinimas</h1>";
-
-    if (count($masyvas) > 0) {
-        echo "<ul>";
-        foreach ($masyvas as $elementas) {
-            echo "<li>$elementas</li>";
-        }
-        echo "</ul>";
-    } else {
-        echo "Sarase nieko nera";
+function suma($masyvas) {
+    $sum = 0;
+    foreach ($masyvas as $skaicius) {
+        $sum += $skaicius;
     }
-
-    echo "<br>";
+    echo "suma: $sum <br>";
 }
 
-sarasas("Studentai", $studentai);
-sarasas("Zodziai", $zodziai);
-sarasas("Automobiliai", $auto);
+$skaiciai1 = array(7, 8, 9, 6, 3, 2, 4, 5);
+$skaiciai2 = array(8, 9, 8, 7, 2, 3, 0, 1, 4, 7);
+$skaiciai3 = array(4, 2, 3, 4);
+
+suma($skaiciai1);
+suma($skaiciai2);
+suma($skaiciai3);
