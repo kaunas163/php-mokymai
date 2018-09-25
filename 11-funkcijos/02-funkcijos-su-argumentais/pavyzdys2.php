@@ -9,5 +9,5 @@ function informacija($vard, $amz) {
 
 informacija($vardas, $amzius);
 informacija($vardas, 20);
-informacija("Povilas", $amzius);
-informacija("Bronius", 70);
+informacija("Paulius", $amzius);
+informacija("Giedrius", 70);
