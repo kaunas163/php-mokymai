@@ -1,21 +1,9 @@
 <?php
 
-function sudetis($pirmas, $antras) {
-    $atsakymas = $pirmas + $antras;
-    echo "$pirmas + $antras = $atsakymas <br>";
+function sudetis($a, $b, $c) {
+    $suma = $a + $b + $c;
+    echo "$suma <br>";
 }
 
-function atimtis($pirmas, $antras) {
-    $atsakymas = $pirmas - $antras;
-    echo "$pirmas - $antras = $atsakymas <br>";
-}
-
-function skaiciavimai($pirmas, $antras) {
-    sudetis($pirmas, $antras);
-    atimtis($pirmas, $antras);
-    echo "<br>";
-}
-
-skaiciavimai(4, 5);
-skaiciavimai(8, 9);
-skaiciavimai(7, 2);
+sudetis(7, 4, 5);
+sudetis(8, 9, 3);
