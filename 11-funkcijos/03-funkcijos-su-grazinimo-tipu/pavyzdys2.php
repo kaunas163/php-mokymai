@@ -5,4 +5,5 @@ function skaicius() {
     return $skaicius;
 }
 
-echo skaicius();
+$skaic = skaicius();
+echo $skaic;
