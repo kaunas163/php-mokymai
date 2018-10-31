@@ -7,10 +7,8 @@ class Automobilis {
     public $rida;
 
     public function Spausdinti() {
-        echo "marke: " . $this->marke . "<br>"
-            . "modelis: " . $this->modelis . "<br>"
-            . "metai: " . $this->metai . "<br>"
-            . "rida: " . $this->rida . "<br>";
+        echo "marke: " . $this->marke . "<br>" . "modelis: " . $this->modelis . "<br>"
+            . "metai: " . $this->metai . "<br>" . "rida: " . $this->rida . "<br>";
     }
 }
 
