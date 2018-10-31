@@ -24,6 +24,7 @@ class Parduotuve {
             $preke->Isvedimas();
         }
         echo "</table>";
+        echo "<p>Bendras prekiu pelnas: " . $this->BendrasPelnas() . " eur</p>";
     }
 
     public function BendrasPelnas() {
