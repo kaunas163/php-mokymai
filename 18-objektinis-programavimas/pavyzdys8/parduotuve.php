@@ -1,0 +1,32 @@
+<?php
+
+require_once "preke.php";
+
+class Parduotuve {
+    private $pavadinimas;
+    private $prekes;
+
+    public function __construct($pavadinimas, $prekes) {
+        $this->pavadinimas = $pavadinimas;
+        $this->prekes = $prekes;
+    }
+
+    public function Isvedimas() {
+        echo "Parduotuve $this->pavadinimas turi sias prekes:";
+        echo '<table border="1">';
+        foreach ($this->prekes as $preke) {
+            $preke->Isvedimas();
+        }
+        echo "</table>";
+    }
+
+    public function BendrasPelnas() {
+        $pelnas = 0.0;
+
+        foreach ($this->prekes as $preke) {
+            $pelnas += $preke->Pelnas();
+        }
+
+        return $pelnas;
+    }
+}
