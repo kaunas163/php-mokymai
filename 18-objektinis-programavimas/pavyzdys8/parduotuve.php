@@ -14,6 +14,12 @@ class Parduotuve {
     public function Isvedimas() {
         echo "Parduotuve $this->pavadinimas turi sias prekes:";
         echo '<table border="1">';
+        echo "<tr>"
+            . "<th>Pavadinimas</th>"
+            . "<th>Savikaina, eur</th>"
+            . "<th>Kaina, eur</th>"
+            . "<th>Kodas</th>"
+            . "</tr>";
         foreach ($this->prekes as $preke) {
             $preke->Isvedimas();
         }
